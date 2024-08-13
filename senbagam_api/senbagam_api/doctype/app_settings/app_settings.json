@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "creation": "2022-02-14 12:31:06.940919",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company_name",
+  "share_message",
+  "android_app_link",
+  "ios_app_link",
+  "about_us",
+  "account_deletion_contact"
+ ],
+ "fields": [
+  {
+   "fieldname": "share_message",
+   "fieldtype": "Small Text",
+   "label": "Share message"
+  },
+  {
+   "fieldname": "about_us",
+   "fieldtype": "Long Text",
+   "label": "About us"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "android_app_link",
+   "fieldtype": "Data",
+   "label": "Android App Link"
+  },
+  {
+   "fieldname": "ios_app_link",
+   "fieldtype": "Data",
+   "label": "IOS App Link"
+  },
+  {
+   "fieldname": "account_deletion_contact",
+   "fieldtype": "Data",
+   "label": "Account Deletion Contact"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-01-22 11:57:41.759372",
+ "modified_by": "Administrator",
+ "module": "Senbagam Api",
+ "name": "App Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
