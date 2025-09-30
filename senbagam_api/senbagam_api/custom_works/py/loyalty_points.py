@@ -6,11 +6,11 @@ from erpnext.setup.doctype.company.company import update_company_current_month_s
 from erpnext.accounts.doctype.sales_invoice.sales_invoice import update_linked_doc
 from erpnext.accounts.doctype.sales_invoice.sales_invoice import check_if_return_invoice_linked_with_payment_entry
 from erpnext.accounts.doctype.sales_invoice.sales_invoice import unlink_inter_company_doc
-from erpnext.stock.doctype.serial_no.serial_no import (
-	get_delivery_note_serial_no,
-	get_serial_nos,
-	update_serial_nos_after_submit,
-)
+# from erpnext.stock.doctype.serial_no.serial_no import (
+# 	get_delivery_note_serial_no,
+# 	get_serial_nos,
+# 	update_serial_nos_after_submit,
+# )
 
 
 class Custom_Sales_Invoice(SalesInvoice):
